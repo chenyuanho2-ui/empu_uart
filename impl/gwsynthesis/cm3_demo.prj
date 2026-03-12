@@ -4,15 +4,15 @@
     <Version>beta</Version>
     <Device id="GW1NSR-4C" package="QFN48P" speed="6" partNumber="GW1NSR-LV4CQN48PC6/I5"/>
     <FileList>
-        <File path="D:\AWORK\03_Resources\fpga\Gowin_EMPU(GW1NS-4C)_V2.2\ref_design\FPGA_RefDesign\DK_START_GW1NSR4C_QN48P_V1.1\gowin_empu\cm3_demo\src\cm3_demo.v" type="verilog"/>
-        <File path="D:\AWORK\03_Resources\fpga\Gowin_EMPU(GW1NS-4C)_V2.2\ref_design\FPGA_RefDesign\DK_START_GW1NSR4C_QN48P_V1.1\gowin_empu\cm3_demo\src\gowin_empu\gowin_empu.v" type="verilog"/>
-        <File path="D:\AWORK\03_Resources\fpga\Gowin_EMPU(GW1NS-4C)_V2.2\ref_design\FPGA_RefDesign\DK_START_GW1NSR4C_QN48P_V1.1\gowin_empu\cm3_demo\src\gowin_pllvr\gowin_pllvr.v" type="verilog"/>
+        <File path="D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\src\cm3_demo.v" type="verilog"/>
+        <File path="D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\src\gowin_empu\gowin_empu.v" type="verilog"/>
+        <File path="D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\src\gowin_pllvr\gowin_pllvr.v" type="verilog"/>
     </FileList>
     <OptionList>
         <Option type="disable_insert_pad" value="0"/>
         <Option type="global_freq" value="50.000"/>
         <Option type="looplimit" value="2000"/>
-        <Option type="output_file" value="D:\AWORK\03_Resources\fpga\Gowin_EMPU(GW1NS-4C)_V2.2\ref_design\FPGA_RefDesign\DK_START_GW1NSR4C_QN48P_V1.1\gowin_empu\cm3_demo\impl\gwsynthesis\cm3_demo.vg"/>
+        <Option type="output_file" value="D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\impl\gwsynthesis\cm3_demo.vg"/>
         <Option type="print_all_synthesis_warning" value="0"/>
         <Option type="ram_rw_check" value="0"/>
         <Option type="top_module" value="cm3_demo"/>

@@ -1,10 +1,10 @@
 //Copyright (C)2014-2025 Gowin Semiconductor Corporation.
 //All rights reserved.
 //File Title: IP file
-//Tool Version: V1.9.11.03 (64-bit)
-//Part Number: GW1NSR-LV4CQN48PC7/I6
+//Tool Version: V1.9.11.03 Education
+//Part Number: GW1NSR-LV4CQN48PC6/I5
 //Device: GW1NSR-4C
-//Created Time: Fri Aug  1 14:39:21 2025
+//Created Time: Thu Mar 12 21:35:10 2026
 
 module Gowin_PLLVR (clkout, clkoutd, clkin);
 
@@ -40,13 +40,13 @@ PLLVR pllvr_inst (
     .VREN(gw_vcc)
 );
 
-defparam pllvr_inst.FCLKIN = "50";
+defparam pllvr_inst.FCLKIN = "27";
 defparam pllvr_inst.DYN_IDIV_SEL = "false";
-defparam pllvr_inst.IDIV_SEL = 4;
+defparam pllvr_inst.IDIV_SEL = 0;
 defparam pllvr_inst.DYN_FBDIV_SEL = "false";
-defparam pllvr_inst.FBDIV_SEL = 7;
+defparam pllvr_inst.FBDIV_SEL = 1;
 defparam pllvr_inst.DYN_ODIV_SEL = "false";
-defparam pllvr_inst.ODIV_SEL = 8;
+defparam pllvr_inst.ODIV_SEL = 16;
 defparam pllvr_inst.PSDA_SEL = "0000";
 defparam pllvr_inst.DYN_DA_EN = "true";
 defparam pllvr_inst.DUTYDA_SEL = "1000";
@@ -58,7 +58,7 @@ defparam pllvr_inst.CLKFB_SEL = "internal";
 defparam pllvr_inst.CLKOUT_BYPASS = "false";
 defparam pllvr_inst.CLKOUTP_BYPASS = "false";
 defparam pllvr_inst.CLKOUTD_BYPASS = "false";
-defparam pllvr_inst.DYN_SDIV_SEL = 26;
+defparam pllvr_inst.DYN_SDIV_SEL = 18;
 defparam pllvr_inst.CLKOUTD_SRC = "CLKOUT";
 defparam pllvr_inst.CLKOUTD3_SRC = "CLKOUT";
 defparam pllvr_inst.DEVICE = "GW1NSR-4C";

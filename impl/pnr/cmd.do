@@ -1,9 +1,9 @@
--d D:\AWORK\03_Resources\fpga\Gowin_EMPU(GW1NS-4C)_V2.2\ref_design\FPGA_RefDesign\DK_START_GW1NSR4C_QN48P_V1.1\gowin_empu\cm3_demo\impl\gwsynthesis\cm3_demo.vg
+-d D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\impl\gwsynthesis\cm3_demo.vg
 -p GW1NSR-4C-QFN48P-6
 -pn GW1NSR-LV4CQN48PC6/I5
--cst D:\AWORK\03_Resources\fpga\Gowin_EMPU(GW1NS-4C)_V2.2\ref_design\FPGA_RefDesign\DK_START_GW1NSR4C_QN48P_V1.1\gowin_empu\cm3_demo\src\cm3_demo.cst
--cfg D:\AWORK\03_Resources\fpga\Gowin_EMPU(GW1NS-4C)_V2.2\ref_design\FPGA_RefDesign\DK_START_GW1NSR4C_QN48P_V1.1\gowin_empu\cm3_demo\impl\pnr\device.cfg
--sdc D:\AWORK\03_Resources\fpga\Gowin_EMPU(GW1NS-4C)_V2.2\ref_design\FPGA_RefDesign\DK_START_GW1NSR4C_QN48P_V1.1\gowin_empu\cm3_demo\src\cm3_demo.sdc
+-cst D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\src\cm3_demo.cst
+-cfg D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\impl\pnr\device.cfg
+-sdc D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\src\cm3_demo.sdc
 -bit
 -tr
 -ph

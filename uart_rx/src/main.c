@@ -19,7 +19,7 @@ int main(void)
 {
   SystemInit();     //Initializes system clock
   uart_init(UART0,  //Initializes UART0
-	          38400,  //Baudrate
+	          115200,  //Baudrate
 	          1,      //Tx
 	          1,      //Rx
 	          0,      //Tx interrupt
