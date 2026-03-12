@@ -1,0 +1,17 @@
+.\objects\uart.o: ..\src\uart.c
+.\objects\uart.o: ..\src\uart.h
+.\objects\uart.o: ..\src\gw1ns4c.h
+.\objects\uart.o: ..\src\core_cm3.h
+.\objects\uart.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\uart.o: ..\src\system_gw1ns4c.h
+.\objects\uart.o: ..\src\gw1ns4c_conf.h
+.\objects\uart.o: ..\inc\gw1ns4c_gpio.h
+.\objects\uart.o: ..\src\gw1ns4c.h
+.\objects\uart.o: ..\inc\gw1ns4c_wdog.h
+.\objects\uart.o: ..\inc\gw1ns4c_uart.h
+.\objects\uart.o: ..\inc\gw1ns4c_timer.h
+.\objects\uart.o: ..\inc\gw1ns4c_spi.h
+.\objects\uart.o: ..\inc\gw1ns4c_i2c.h
+.\objects\uart.o: ..\inc\gw1ns4c_misc.h
+.\objects\uart.o: ..\inc\gw1ns4c_syscon.h
+.\objects\uart.o: ..\inc\gw1ns4c_rtc.h
