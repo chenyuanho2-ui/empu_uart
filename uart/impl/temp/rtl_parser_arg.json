@@ -2,11 +2,11 @@
  "Device" : "GW1NSR-4C",
  "Files" : [
   {
-   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/top.v",
+   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/gowin_empu/gowin_empu.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/gowin_empu/gowin_empu.v",
+   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/top.v",
    "Type" : "verilog"
   }
  ],
