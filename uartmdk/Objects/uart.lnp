@@ -1,0 +1,9 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\system_gw1ns4c.o"
+".\objects\startup_gw1ns4c.o"
+".\objects\gw1ns4c_uart.o"
+--strict --scatter ".\Objects\uart.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\uart.map" -o .\Objects\uart.axf

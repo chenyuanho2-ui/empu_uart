@@ -1,8 +1,8 @@
--d D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\urart_round\uart\impl\gwsynthesis\uart.vg
+-d D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\uart\impl\gwsynthesis\uart.vg
 -p GW1NSR-4C-QFN48P-6
 -pn GW1NSR-LV4CQN48PC6/I5
--cst D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\urart_round\uart\src\uart.cst
--cfg D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\urart_round\uart\impl\pnr\device.cfg
+-cst D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\uart\src\uart.cst
+-cfg D:\AWORK\04_Archives\SOFT\fpga\tangnano4k\empu_uart\uart\impl\pnr\device.cfg
 -bit
 -tr
 -ph

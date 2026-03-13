@@ -1,117 +1,16 @@
 module top(
-    input clk,
-    input rst,
-
-    input rx,
-    output tx
+    input  wire clk,  // 对应约束里的 27MHz 时钟 (Pin 45)
+    input  wire rst,  // 对应约束里的复位按键 (Pin 15)
+    input  wire rx,   // 对应约束里的串口接收 (Pin 44)
+    output wire tx    // 对应约束里的串口发送 (Pin 46)
 );
 
-
-
-
-wire [7:0] rdata;
-reg [7:0] wdata;
-
-reg wvalid;
-reg rready;
-wire wready;
-wire rvalid;
-
-reg [4:0] status;
-
-
-
-
-uart UART1(
-    .clk        (clk),
-    .rst        (rst),
-
-    .wdata_i    (wdata),
-    .wvalid_i   (wvalid),
-    .wready_o   (wready),
-    .tx_o       (tx),
-
-    .rx_i       (rx),
-    .rready_i   (rready),
-    .rvalid_o   (rvalid),
-    .rdata_o    (rdata)
-);
-
-
-always @(posedge clk or negedge rst) begin
-    if( !rst ) begin
-        wdata <= 0;
-        wvalid <= 0;
-        status <= 0;
-        rready <= 0;
-    end else begin
-        case(status)
-            0: begin
-                if(rvalid) begin
-                    rready <= 1;
-                    status <= status + 1;
-                    wdata <= rdata;
-                end
-            end
-            1: begin
-                rready <= 0;
-                
-                wvalid <= 1;
-                status <= status + 1;
-            end
-            2: begin
-                if(wready) begin
-                    wvalid <= 0;
-                    status <= 0;
-                end
-            end
-        endcase
-    end
-
-end
-
-//always @(posedge clk or negedge rst) begin
-//    if( !rst ) begin
-//        wdata  <= 0;
-//        wvalid <= 0;
-//        status <= 0;
-//    end else begin
-//        case (status)
-//            0 : begin
-//                wdata  <= 8'h4f;
-//                wvalid <= 1;
-//                status <= status + 1;
-//            end
-//            1 : begin
-//                if(wready) begin
-//                    wvalid <= 0;
-//                    status <= status + 1;
-//                end
-//            end
-//            2 : begin
-//                wdata  <= 8'h4b;
-//                wvalid <= 1;
-//                status <= status + 1;
-//            end
-//            3 : begin
-//                if(wready) begin
-//                    wvalid <= 0;
-//                    status <= status + 1;
-//                end
-//            end
-//            4 : begin
-//                wdata  <= 8'h0d;
-//                wvalid <= 1;
-//                status <= status + 1;
-//            end
-//            5 : begin
-//                if(wready) begin
-//                    wvalid <= 0;
-//                    status <= 0;
-//                end
-//            end
-//        endcase
-//    end
-//end
+    // 注意：这里的模块名 Gowin_EMPU_Top 如果和你刚才生成的不同，请改成你实际生成的模块名
+    Gowin_EMPU_Top empu_inst (
+        .sys_clk    (clk),       
+        .reset_n    (rst),       
+        .uart0_rxd  (rx),        
+        .uart0_txd  (tx)         
+    );
 
 endmodule

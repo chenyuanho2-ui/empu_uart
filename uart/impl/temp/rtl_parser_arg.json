@@ -2,19 +2,11 @@
  "Device" : "GW1NSR-4C",
  "Files" : [
   {
-   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/top.v",
+   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/uart.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/uart_rx.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/uart_tx.v",
+   "Path" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/gowin_empu/gowin_empu.v",
    "Type" : "verilog"
   }
  ],
@@ -22,7 +14,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/impl/temp/rtl_parser.result",
+ "ResultFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

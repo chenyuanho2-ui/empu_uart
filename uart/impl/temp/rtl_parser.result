@@ -1,37 +1,19 @@
 [
  {
-  "InstFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/top.v",
+  "InstFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/top.v",
   "InstLine" : 1,
   "InstName" : "top",
-  "ModuleFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/top.v",
+  "ModuleFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/top.v",
   "ModuleLine" : 1,
   "ModuleName" : "top",
   "SubInsts" : [
    {
-    "InstFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/top.v",
-    "InstLine" : 25,
-    "InstName" : "UART1",
-    "ModuleFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/uart.v",
-    "ModuleLine" : 1,
-    "ModuleName" : "uart",
-    "SubInsts" : [
-     {
-      "InstFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/uart.v",
-      "InstLine" : 30,
-      "InstName" : "tx_inst",
-      "ModuleFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/uart_tx.v",
-      "ModuleLine" : 1,
-      "ModuleName" : "uart_tx"
-     },
-     {
-      "InstFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/uart.v",
-      "InstLine" : 41,
-      "InstName" : "rx_inst",
-      "ModuleFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/urart_round/uart/src/uart_rx.v",
-      "ModuleLine" : 1,
-      "ModuleName" : "uart_rx"
-     }
-    ]
+    "InstFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/top.v",
+    "InstLine" : 9,
+    "InstName" : "empu_inst",
+    "ModuleFile" : "D:/AWORK/04_Archives/SOFT/fpga/tangnano4k/empu_uart/uart/src/gowin_empu/gowin_empu.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "Gowin_EMPU_Top"
    }
   ]
  }
