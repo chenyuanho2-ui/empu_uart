@@ -1,99 +1,0 @@
-Dependencies for Project 'uart_rx', Target 'uart_rx': (DO NOT MODIFY !)
-F (..\src\gw1ns4c_it.c)(0x688C19F4)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\inc -I ..\src-I.\RTE\_uart_rx-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DARMCM3-o .\objects\gw1ns4c_it.o --omf_browse .\objects\gw1ns4c_it.crf --depend .\objects\gw1ns4c_it.d)
-I (..\inc\gw1ns4c_it.h)(0x688C19FE)
-I (..\src\gw1ns4c.h)(0x688B404E)
-I (..\src\core_cm3.h)(0x5FFD65FD)
-I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\src\system_gw1ns4c.h)(0x659F4E00)
-I (..\src\gw1ns4c_conf.h)(0x659E4E43)
-I (..\inc\gw1ns4c_gpio.h)(0x67FC6715)
-I (..\inc\gw1ns4c_wdog.h)(0x6374AAA8)
-I (..\inc\gw1ns4c_uart.h)(0x6374AA92)
-I (..\inc\gw1ns4c_timer.h)(0x6374AA7F)
-I (..\inc\gw1ns4c_spi.h)(0x6374A3F4)
-I (..\inc\gw1ns4c_i2c.h)(0x6374A3AF)
-I (..\inc\gw1ns4c_misc.h)(0x659E52B4)
-I (..\inc\gw1ns4c_syscon.h)(0x6374AA68)
-I (..\inc\gw1ns4c_rtc.h)(0x6374A3DD)
-F (..\src\main.c)(0x69B2B9BD)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\inc -I ..\src-I.\RTE\_uart_rx-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DARMCM3-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (..\src\uart.h)(0x659F4199)
-I (..\src\gw1ns4c.h)(0x688B404E)
-I (..\src\core_cm3.h)(0x5FFD65FD)
-I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\src\system_gw1ns4c.h)(0x659F4E00)
-I (..\src\gw1ns4c_conf.h)(0x659E4E43)
-I (..\inc\gw1ns4c_gpio.h)(0x67FC6715)
-I (..\inc\gw1ns4c_wdog.h)(0x6374AAA8)
-I (..\inc\gw1ns4c_uart.h)(0x6374AA92)
-I (..\inc\gw1ns4c_timer.h)(0x6374AA7F)
-I (..\inc\gw1ns4c_spi.h)(0x6374A3F4)
-I (..\inc\gw1ns4c_i2c.h)(0x6374A3AF)
-I (..\inc\gw1ns4c_misc.h)(0x659E52B4)
-I (..\inc\gw1ns4c_syscon.h)(0x6374AA68)
-I (..\inc\gw1ns4c_rtc.h)(0x6374A3DD)
-I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
-F (..\src\gw1ns4c_uart.c)(0x6374AB59)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\inc -I ..\src-I.\RTE\_uart_rx-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DARMCM3-o .\objects\gw1ns4c_uart.o --omf_browse .\objects\gw1ns4c_uart.crf --depend .\objects\gw1ns4c_uart.d)
-I (..\inc\gw1ns4c_uart.h)(0x6374AA92)
-I (..\src\gw1ns4c.h)(0x688B404E)
-I (..\src\core_cm3.h)(0x5FFD65FD)
-I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\src\system_gw1ns4c.h)(0x659F4E00)
-I (..\src\gw1ns4c_conf.h)(0x659E4E43)
-I (..\inc\gw1ns4c_gpio.h)(0x67FC6715)
-I (..\inc\gw1ns4c_wdog.h)(0x6374AAA8)
-I (..\inc\gw1ns4c_timer.h)(0x6374AA7F)
-I (..\inc\gw1ns4c_spi.h)(0x6374A3F4)
-I (..\inc\gw1ns4c_i2c.h)(0x6374A3AF)
-I (..\inc\gw1ns4c_misc.h)(0x659E52B4)
-I (..\inc\gw1ns4c_syscon.h)(0x6374AA68)
-I (..\inc\gw1ns4c_rtc.h)(0x6374A3DD)
-F (..\src\core_cm3.c)(0x5FFD65FD)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\inc -I ..\src-I.\RTE\_uart_rx-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DARMCM3-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
-I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-F (..\src\system_gw1ns4c.c)(0x69B2B8C1)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\inc -I ..\src-I.\RTE\_uart_rx-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DARMCM3-o .\objects\system_gw1ns4c.o --omf_browse .\objects\system_gw1ns4c.crf --depend .\objects\system_gw1ns4c.d)
-I (..\src\gw1ns4c.h)(0x688B404E)
-I (..\src\core_cm3.h)(0x5FFD65FD)
-I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\src\system_gw1ns4c.h)(0x659F4E00)
-I (..\src\gw1ns4c_conf.h)(0x659E4E43)
-I (..\inc\gw1ns4c_gpio.h)(0x67FC6715)
-I (..\inc\gw1ns4c_wdog.h)(0x6374AAA8)
-I (..\inc\gw1ns4c_uart.h)(0x6374AA92)
-I (..\inc\gw1ns4c_timer.h)(0x6374AA7F)
-I (..\inc\gw1ns4c_spi.h)(0x6374A3F4)
-I (..\inc\gw1ns4c_i2c.h)(0x6374A3AF)
-I (..\inc\gw1ns4c_misc.h)(0x659E52B4)
-I (..\inc\gw1ns4c_syscon.h)(0x6374AA68)
-I (..\inc\gw1ns4c_rtc.h)(0x6374A3DD)
-F (..\src\startup_gw1ns4c.s)(0x688B449D)(--cpu Cortex-M3 --li -g --apcs=interwork -I.\RTE\_uart_rx-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-ID:\keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "ARMCM3 SETA 1"--list .\listings\startup_gw1ns4c.lst --xref -o .\objects\startup_gw1ns4c.o --depend .\objects\startup_gw1ns4c.d)
-F (..\src\uart.c)(0x659F4243)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\inc -I ..\src-I.\RTE\_uart_rx-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DARMCM3-o .\objects\uart.o --omf_browse .\objects\uart.crf --depend .\objects\uart.d)
-I (..\src\uart.h)(0x659F4199)
-I (..\src\gw1ns4c.h)(0x688B404E)
-I (..\src\core_cm3.h)(0x5FFD65FD)
-I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\src\system_gw1ns4c.h)(0x659F4E00)
-I (..\src\gw1ns4c_conf.h)(0x659E4E43)
-I (..\inc\gw1ns4c_gpio.h)(0x67FC6715)
-I (..\inc\gw1ns4c_wdog.h)(0x6374AAA8)
-I (..\inc\gw1ns4c_uart.h)(0x6374AA92)
-I (..\inc\gw1ns4c_timer.h)(0x6374AA7F)
-I (..\inc\gw1ns4c_spi.h)(0x6374A3F4)
-I (..\inc\gw1ns4c_i2c.h)(0x6374A3AF)
-I (..\inc\gw1ns4c_misc.h)(0x659E52B4)
-I (..\inc\gw1ns4c_syscon.h)(0x6374AA68)
-I (..\inc\gw1ns4c_rtc.h)(0x6374A3DD)
-F (..\src\retarget.c)(0x69B2B591)(--c99 -c --cpu Cortex-M3 --li -g -O0 --apcs=interwork --split_sections -I ..\inc -I ..\src-I.\RTE\_uart_rx-ID:\keil5\ARM\PACK\ARM\CMSIS\5.0.1\Device\ARM\ARMCM3\Include-ID:\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DARMCM3-o .\objects\retarget.o --omf_browse .\objects\retarget.crf --depend .\objects\retarget.d)
-I (..\src\gw1ns4c.h)(0x688B404E)
-I (..\src\core_cm3.h)(0x5FFD65FD)
-I (D:\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
-I (..\src\system_gw1ns4c.h)(0x659F4E00)
-I (..\src\gw1ns4c_conf.h)(0x659E4E43)
-I (..\inc\gw1ns4c_gpio.h)(0x67FC6715)
-I (..\inc\gw1ns4c_wdog.h)(0x6374AAA8)
-I (..\inc\gw1ns4c_uart.h)(0x6374AA92)
-I (..\inc\gw1ns4c_timer.h)(0x6374AA7F)
-I (..\inc\gw1ns4c_spi.h)(0x6374A3F4)
-I (..\inc\gw1ns4c_i2c.h)(0x6374A3AF)
-I (..\inc\gw1ns4c_misc.h)(0x659E52B4)
-I (..\inc\gw1ns4c_syscon.h)(0x6374AA68)
-I (..\inc\gw1ns4c_rtc.h)(0x6374A3DD)
-I (D:\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)

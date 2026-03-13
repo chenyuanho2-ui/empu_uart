@@ -1,0 +1,17 @@
+// Tang Nano 4K 串口回环约束文件
+
+// 1. 时钟信号 (Tang Nano 4K 的板载晶振连接在 Pin 45)
+IO_LOC "clk" 45;
+IO_PORT "clk" PULL_MODE=UP IO_TYPE=LVCMOS33;
+
+// 2. 复位信号 (使用板载的用户按键作为复位，通常 Key1 是 Pin 15)
+IO_LOC "rst" 15;
+IO_PORT "rst" PULL_MODE=UP IO_TYPE=LVCMOS18;
+
+// 3. 串口接收 RX (FPGA 接收脚，连接到板载 USB 芯片的发送端)
+IO_LOC "rx" 44;
+IO_PORT "rx" IO_TYPE=LVCMOS33 PULL_MODE=UP;
+
+// 4. 串口发送 TX (FPGA 发送脚，连接到板载 USB 芯片的接收端)
+IO_LOC "tx" 46;
+IO_PORT "tx" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;

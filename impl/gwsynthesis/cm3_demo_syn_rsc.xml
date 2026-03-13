@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="cm3_demo" T_Register="15(0)" T_Lut="28(0)" T_Bsram="8(0)">
- <SubModule name="u_Gowin_PLLVR"/>
- <SubModule name="u_Gowin_EMPU_Top" Register="15" Lut="28" Bsram="8" T_Register="15(15)" T_Lut="28(28)" T_Bsram="8(8)"/>
-</Module>
